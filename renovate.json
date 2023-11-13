@@ -1,3 +1,8 @@
 {
-  "pinDigests": true
+  "gomod": {
+    "postUpgradeTasks": {
+      "commands": ["echo abc123 > vendor/BUILD.bazel"],
+      "fileFilters": ["**/*"]
+    }
+  }
 }
