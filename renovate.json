@@ -4,5 +4,6 @@
       "commands": ["echo abc123 > vendor/BUILD.bazel"],
       "fileFilters": ["**/*"]
     }
-  }
+  },
+  "postUpdateOptions": ["gomodTidy"]
 }
